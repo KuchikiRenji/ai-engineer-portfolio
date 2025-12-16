@@ -1,0 +1,13 @@
+/** @type {import('eslint').Linter.Config} */
+module.exports = {
+  root: true,
+  extends: ["next/core-web-vitals", "eslint:recommended", "prettier"],
+  parserOptions: {
+    ecmaVersion: "latest",
+    sourceType: "module"
+  },
+  rules: {
+    "@next/next/no-img-element": "off"
+  }
+};
+
